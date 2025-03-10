@@ -23,3 +23,7 @@ Route::view('/home', 'home');
 Route::get('/greet/{name?}', function ($name = "") {
     print("Hello $name");
 });
+
+Route::get('demo-named-route', function () {
+    return "<h1>This is a named route</h1>";
+})->name('test-name');
