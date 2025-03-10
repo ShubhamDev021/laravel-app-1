@@ -39,3 +39,7 @@ Route::put('put-route', function () {
 Route::patch('patch-route', function () {
     return "<h1>This is a PATCH route</h1>";
 });
+
+Route::delete('delete-route', function () {
+    return "<h1>This is a DELETE route</h1>";
+});
