@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/home', function() {
-    print('Welcome my friend!!');
+    return view('home');
 });
