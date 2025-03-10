@@ -47,3 +47,7 @@ Route::delete('delete-route', function () {
 Route::match(['get', 'post'], 'multiple-route', function () {
     return "<h1>This is a route which accepts either GET or POST method</h1>";
 });
+
+Route::any('any-method', function () {
+    return "<h1>This is a route which accepts all the methods</h1>";
+});
