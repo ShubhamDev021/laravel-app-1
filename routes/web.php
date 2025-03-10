@@ -27,3 +27,7 @@ Route::get('/greet/{name?}', function ($name = "") {
 Route::get('demo-named-route', function () {
     return "<h1>This is a named route</h1>";
 })->name('test-name');
+
+Route::post('post-route', function () {
+    return "<h1>This is a POST route</h1>";
+});
