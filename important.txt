@@ -1,0 +1,2 @@
+Get list of all the routes which have been created in this application
+php artisan route:list
