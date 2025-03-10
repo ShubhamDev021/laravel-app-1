@@ -20,6 +20,6 @@ Route::get('/', function () {
 
 Route::view('/home', 'home');
 
-Route::get('/greet/{name}', function ($name) {
+Route::get('/greet/{name?}', function ($name = "") {
     print("Hello $name");
 });
