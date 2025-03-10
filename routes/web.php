@@ -31,3 +31,7 @@ Route::get('demo-named-route', function () {
 Route::post('post-route', function () {
     return "<h1>This is a POST route</h1>";
 });
+
+Route::put('put-route', function () {
+    return "<h1>This is a PUT route</h1>";
+});
