@@ -43,3 +43,7 @@ Route::patch('patch-route', function () {
 Route::delete('delete-route', function () {
     return "<h1>This is a DELETE route</h1>";
 });
+
+Route::match(['get', 'post'], 'multiple-route', function () {
+    return "<h1>This is a route which accepts either GET or POST method</h1>";
+});
