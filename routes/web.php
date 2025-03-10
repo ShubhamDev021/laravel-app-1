@@ -35,3 +35,7 @@ Route::post('post-route', function () {
 Route::put('put-route', function () {
     return "<h1>This is a PUT route</h1>";
 });
+
+Route::patch('patch-route', function () {
+    return "<h1>This is a PATCH route</h1>";
+});
